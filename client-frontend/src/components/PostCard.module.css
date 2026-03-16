@@ -1,0 +1,73 @@
+.card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin-bottom: 12px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.user {
+  font-family: var(--font-display);
+  color: var(--accent);
+}
+
+.timestamp {
+  color: var(--text-muted);
+}
+
+.content {
+  margin: 12px 0;
+  font-size: 14px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.likeButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  padding: 4px;
+  color: var(--text-muted);
+  transform-origin: center;
+  border-radius: 999px;
+  transition: transform 120ms ease-out, color 120ms ease-out,
+    background-color 120ms ease-out, box-shadow 120ms ease-out;
+}
+
+.likeButton:hover {
+  color: var(--accent);
+}
+
+.likeButtonActive {
+  color: var(--accent);
+  background: var(--accent-dim);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+.likeButton:active {
+  transform: scale(1.15);
+}
+
+.likeCount {
+  color: var(--text-secondary);
+}
+
+.likeCountActive {
+  color: var(--accent);
+}
+

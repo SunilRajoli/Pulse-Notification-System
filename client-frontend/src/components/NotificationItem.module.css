@@ -1,0 +1,49 @@
+.item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.unread {
+  border-left: 3px solid var(--accent);
+}
+
+.read {
+  border-left: 3px solid transparent;
+}
+
+.iconCircle {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconUnread {
+  background: var(--accent-dim);
+  border: 1px solid var(--accent);
+}
+
+.iconRead {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+}
+
+.body {
+  flex: 1;
+}
+
+.title {
+  font-size: 14px;
+}
+
+.timestamp {
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+

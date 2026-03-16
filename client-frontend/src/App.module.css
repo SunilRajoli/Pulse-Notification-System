@@ -1,0 +1,12 @@
+.app {
+  min-height: 100vh;
+  background: var(--bg-base);
+  color: var(--text-primary);
+}
+
+.shell {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 80px 20px 40px;
+}
+
